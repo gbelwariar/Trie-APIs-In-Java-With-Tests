@@ -1,10 +1,11 @@
 # Trie APIs in Java with Tests
 A collection of APIs related to Trie Data Structure, implemented in Java and backed by strong tests.
 
-## Frameworks Used - 
+## Frameworks/Libraries Used - 
 
-1) [Hamcrest Framework](http://hamcrest.org/) - To use the different Matchers available inside [TrieTest](https://github.com/gbelwariar/Trie-APIs-In-Java-With-Tests/blob/master/TrieTest.java).
-2) [JUnit Testing Framework](http://junit.org/junit4/) - To test the Trie APIs.
+1) [Google Guava Library](https://github.com/google/guava) - The project uses annotations like - [@VisibleForTesting](https://github.com/google/guava/blob/master/guava/src/com/google/common/annotations/VisibleForTesting.java) to give the tests access to the instance variables and methods. 
+2) [Hamcrest Framework](http://hamcrest.org/) - To use the different Matchers available inside [TrieTest](https://github.com/gbelwariar/Trie-APIs-In-Java-With-Tests/blob/master/TrieTest.java).
+3) [JUnit Testing Framework](http://junit.org/junit4/) - To test the Trie APIs.
 
 ## How to use the APIs- 
 
