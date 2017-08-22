@@ -3,8 +3,8 @@ A collection of APIs related to Trie Data Structure, implemented in Java and bac
 
 ## Frameworks Used - 
 
-1) Hamcrest Framework - To use the different Matchers available inside [TrieTest](https://github.com/gbelwariar/Trie-APIs-In-Java-With-Tests/blob/master/TrieTest.java).
-2) JUnit Testing Framework - To test the Trie APIs.
+1) [Hamcrest Framework](http://hamcrest.org/) - To use the different Matchers available inside [TrieTest](https://github.com/gbelwariar/Trie-APIs-In-Java-With-Tests/blob/master/TrieTest.java).
+2) [JUnit Testing Framework](http://junit.org/junit4/) - To test the Trie APIs.
 
 ## How to use the APIs- 
 
