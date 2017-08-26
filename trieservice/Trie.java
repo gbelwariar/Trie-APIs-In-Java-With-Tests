@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package trieservice;
 
 import com.google.common.annotations.VisibleForTesting;
@@ -131,10 +126,9 @@ public class Trie {
     }
     
     /**
-     * Not making this class as immutable since we can mark one of the tree 
-     * node's isLastWord equal to true.
+     * The TrieNode class is not made immutable since we can mark one of the tree node's isLastWord equal 
+     * to true and hence we don't want to create new objects for those updates.
      */
-     
     public static class TrieNode {
         
         private Character letter;
