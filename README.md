@@ -6,7 +6,7 @@ A collection of APIs related to Trie Data Structure, implemented in Java and bac
 
 1) [Google Guice Framework](https://github.com/google/guice) - Google's Dependency Injection Framework.
 2) [Google Guava Library](https://github.com/google/guava) - The project uses annotations like - [@VisibleForTesting](https://github.com/google/guava/blob/master/guava/src/com/google/common/annotations/VisibleForTesting.java) to give the tests access to the instance variables and methods. 
-3) [Hamcrest Framework](http://hamcrest.org/) - To use the different Matchers available inside [TrieTest](https://github.com/gbelwariar/Trie-APIs-In-Java-With-Tests/blob/master/TrieTest.java).
+3) [Hamcrest Framework](http://hamcrest.org/) - To use the different Matchers available inside [TrieTest](https://github.com/gbelwariar/Trie-APIs-In-Java-With-Tests/blob/master/trieservice/TrieTest.java).
 4) [EasyMock Framework](http://easymock.org/) - To mock the Trie Service in order to test the solution to our sample problem in isolation.
 5) [JUnit Testing Framework](http://junit.org/junit4/) - To test the Trie APIs.
 
