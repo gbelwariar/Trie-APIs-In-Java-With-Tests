@@ -30,7 +30,7 @@ public class Problem {
     public String
         getUnconcatenatedDocumentWithMinimumUnrecognizedCharacters(
             String document, List<String> dictionary) {
-        if (document == null || document.isEmpty() || dictionary == null) {
+        if (document == null || document.isEmpty()) {
             throw new IllegalArgumentException(
                 "The document is either null or is empty or the dictionary is"
                 + " not defined");
