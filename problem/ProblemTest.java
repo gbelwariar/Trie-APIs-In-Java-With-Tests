@@ -20,7 +20,7 @@ import service.Trie;
 
 /**
  *
- * @author BELWARIAR
+ * @author gbelwariar
  */
 public class ProblemTest {
     
@@ -116,7 +116,6 @@ public class ProblemTest {
         List<String> dictionary = 
             Arrays.asList( 
                "b", "d", "e", "h", "i", "l", "m", "o", "r", "s", "t", "u");
-        // Recording phase
         trie.addWords(dictionary.toArray(new String[dictionary.size()]));
         expect(trie.isWordPresent(isWordPresentMatcher(dictionary)))
             .andReturn(true).anyTimes();
