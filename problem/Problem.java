@@ -8,7 +8,7 @@ import service.Trie;
 /**
  *
  *
- * @author BELWARIAR
+ * @author gbelwariar
  */
 public class Problem {
     
