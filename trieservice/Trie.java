@@ -7,7 +7,7 @@ import java.util.Objects;
 
 /**
  *
- * @author BELWARIAR
+ * @author gbelwariar
  */
 public class Trie {
     
