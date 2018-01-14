@@ -12,7 +12,7 @@ import org.junit.Test;
 
 /**
  *
- * @author BELWARIAR
+ * @author gbelwariar
  */
 public class TrieTest {
      
